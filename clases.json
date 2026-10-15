@@ -1,0 +1,254 @@
+[
+ {
+  "producto": "Manzana",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Aguacate",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Plátano",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Kiwi",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Limón",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Lima",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Mango",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Melón / sandía",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Nectarina",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Naranja",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Papaya",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Maracuyá",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Melocotón",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Pera",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Piña",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Ciruela",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Granada",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Pomelo",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Mandarina",
+  "seccion": "Frutas"
+ },
+ {
+  "producto": "Espárrago",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Berenjena",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Champiñón",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Repollo",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Zanahoria",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Pepino",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Ajo",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Jengibre",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Puerro",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Cebolla",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Pimiento",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Patata",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Remolacha",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Tomate",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Calabacín",
+  "seccion": "Verduras"
+ },
+ {
+  "producto": "Leche",
+  "seccion": "Lácteos"
+ },
+ {
+  "producto": "Yogur",
+  "seccion": "Lácteos"
+ },
+ {
+  "producto": "Bebida vegetal (avena / soja)",
+  "seccion": "Lácteos"
+ },
+ {
+  "producto": "Nata agria",
+  "seccion": "Lácteos"
+ },
+ {
+  "producto": "Leche fermentada",
+  "seccion": "Lácteos"
+ },
+ {
+  "producto": "Agua",
+  "seccion": "Bebidas"
+ },
+ {
+  "producto": "Refresco",
+  "seccion": "Bebidas"
+ },
+ {
+  "producto": "Zumo",
+  "seccion": "Bebidas"
+ },
+ {
+  "producto": "Café",
+  "seccion": "Bebidas"
+ },
+ {
+  "producto": "Té",
+  "seccion": "Bebidas"
+ },
+ {
+  "producto": "Patatas fritas (chips)",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "producto": "Chocolate",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "producto": "Caramelos",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "producto": "Pasteles / galletas",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "producto": "Frutos secos",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "producto": "Pasta",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Arroz",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Harina",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Azúcar",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Cereales",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Aceite",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Vinagre",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Miel",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Mermelada",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Especias",
+  "seccion": "Despensa"
+ },
+ {
+  "producto": "Alubias",
+  "seccion": "Conservas"
+ },
+ {
+  "producto": "Maíz",
+  "seccion": "Conservas"
+ },
+ {
+  "producto": "Pescado en lata",
+  "seccion": "Conservas"
+ },
+ {
+  "producto": "Salsa de tomate",
+  "seccion": "Conservas"
+ }
+]

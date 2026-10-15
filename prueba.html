@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prueba con fotos de ejemplo</title>
+<style>body{font-family:sans-serif;margin:20px}#g{display:flex;flex-wrap:wrap;gap:12px}.c{width:170px;font-size:13px;text-align:center}.c img{width:170px;height:170px;object-fit:cover;border-radius:8px}</style>
+</head><body>
+<h2>Prueba del modelo con fotos de ejemplo</h2>
+<p><a href="./">← Volver a la cámara</a></p>
+<p id="estado">Cargando modelo...</p>
+<div id="g"></div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+<script>
+(async () => {
+  const [modelo, clases, muestras] = await Promise.all([tf.loadLayersModel('./model.json'),
+    fetch('./clases.json').then(r => r.json()), fetch('./muestras/muestras.json').then(r => r.json())]);
+  let ok = 0;
+  for (const m of muestras) {
+    const img = new Image(); img.src = './muestras/' + m.archivo; await img.decode();
+    const probs = tf.tidy(() => modelo.predict(tf.image.resizeBilinear(tf.browser.fromPixels(img).toFloat(), [224, 224]).expandDims(0)).dataSync());
+    const i = probs.indexOf(Math.max(...probs)), pred = clases[i];
+    const bien = pred.producto === m.producto; ok += bien;
+    document.getElementById('g').insertAdjacentHTML('beforeend', `<div class="c"><img src="./muestras/${m.archivo}"><br>
+      Real: ${m.seccion} → ${m.producto}<br><b style="color:${bien ? 'green' : 'red'}">Predicción: ${pred.seccion} → ${pred.producto}</b> (${(probs[i] * 100).toFixed(0)}%)</div>`);
+  }
+  document.getElementById('estado').textContent = `Modelo cargado — aciertos: ${ok}/${muestras.length}`;
+})().catch(e => document.getElementById('estado').textContent = 'ERROR: ' + e);
+</script></body></html>

@@ -1,0 +1,107 @@
+[
+ {
+  "archivo": "00.jpg",
+  "producto": "Limón",
+  "seccion": "Frutas"
+ },
+ {
+  "archivo": "01.jpg",
+  "producto": "Lima",
+  "seccion": "Frutas"
+ },
+ {
+  "archivo": "02.jpg",
+  "producto": "Limón",
+  "seccion": "Frutas"
+ },
+ {
+  "archivo": "03.jpg",
+  "producto": "Zanahoria",
+  "seccion": "Verduras"
+ },
+ {
+  "archivo": "04.jpg",
+  "producto": "Repollo",
+  "seccion": "Verduras"
+ },
+ {
+  "archivo": "05.jpg",
+  "producto": "Patata",
+  "seccion": "Verduras"
+ },
+ {
+  "archivo": "06.jpg",
+  "producto": "Leche",
+  "seccion": "Lácteos"
+ },
+ {
+  "archivo": "07.jpg",
+  "producto": "Yogur",
+  "seccion": "Lácteos"
+ },
+ {
+  "archivo": "08.jpg",
+  "producto": "Yogur",
+  "seccion": "Lácteos"
+ },
+ {
+  "archivo": "09.jpg",
+  "producto": "Zumo",
+  "seccion": "Bebidas"
+ },
+ {
+  "archivo": "10.jpg",
+  "producto": "Té",
+  "seccion": "Bebidas"
+ },
+ {
+  "archivo": "11.jpg",
+  "producto": "Refresco",
+  "seccion": "Bebidas"
+ },
+ {
+  "archivo": "12.jpg",
+  "producto": "Caramelos",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "archivo": "13.jpg",
+  "producto": "Pasteles / galletas",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "archivo": "14.jpg",
+  "producto": "Chocolate",
+  "seccion": "Snacks y dulces"
+ },
+ {
+  "archivo": "15.jpg",
+  "producto": "Aceite",
+  "seccion": "Despensa"
+ },
+ {
+  "archivo": "16.jpg",
+  "producto": "Especias",
+  "seccion": "Despensa"
+ },
+ {
+  "archivo": "17.jpg",
+  "producto": "Harina",
+  "seccion": "Despensa"
+ },
+ {
+  "archivo": "18.jpg",
+  "producto": "Pescado en lata",
+  "seccion": "Conservas"
+ },
+ {
+  "archivo": "19.jpg",
+  "producto": "Salsa de tomate",
+  "seccion": "Conservas"
+ },
+ {
+  "archivo": "20.jpg",
+  "producto": "Salsa de tomate",
+  "seccion": "Conservas"
+ }
+]
